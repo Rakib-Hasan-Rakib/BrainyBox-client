@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-btn {
+  @apply bg-gradient-to-r from-violet-500 to-fuchsia-700 px-4 py-2 rounded-lg text-lg text-white font-semibold cursor-pointer;
+}
+.form-background {
+  background-image: url("https://media.istockphoto.com/id/1160194662/vector/abstract-form-background.jpg?s=170667a&w=0&k=20&c=ZG-CXS8etRaQwQzaWhLB5X39GzjlhvZA5Pqk_6hmw6M=");
+
+  object-fit: contain;
+  background-position: center;
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-r from-violet-500 to-fuchsia-500;
+}
+.gradient-title {
+  @apply font-bold text-3xl md:text-5xl text-center capitalize py-8 md:py-12 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-700;
+}
+.gradient-text{
+    @apply  text-xl md:text-2xl text-center capitalize bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-700;
+}
+.active {
+  @apply text-white font-semibold text-lg;
+}
+.default {
+  @apply text-black font-semibold text-lg;
+}
